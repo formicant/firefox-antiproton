@@ -1,0 +1,97 @@
+/* General */
+
+*
+{
+  border-radius: 0!important;
+}
+
+
+/* Tab panel */
+
+#TabsToolbar
+{
+  height: 29px;
+}
+
+.tab-background
+{
+  margin: 0 !important;
+}
+
+.titlebar-spacer[type="pre-tabs"],
+.titlebar-spacer[type="post-tabs"]
+{
+	width: 0 !important;
+}
+
+.tabbrowser-tab
+{
+  padding: 0 !important;
+}
+
+.tab-content
+{
+  padding: 0 4px 0 6px !important;
+}
+
+.titlebar-button
+{
+  padding: 0 12px 0 12px !important;
+}
+
+.titlebar-button .toolbarbutton-icon
+{
+  padding: 0 !important;
+  height: 12px !important;
+  width: 12px !important;
+}
+
+
+/* Main toolbar */
+
+toolbarbutton
+{
+  padding: 0 !important;
+}
+
+.toolbarbutton-icon
+{
+  padding: 6px !important;
+  height: 28px !important;
+  width: 28px !important;
+}
+
+.toolbarbutton-badge-stack
+{
+  padding: 0 !important;
+}
+
+#downloads-indicator-anchor
+{
+  padding: 6px;
+}
+
+#urlbar-container
+{
+  min-height: 28px !important;
+  margin-top: -2px !important;
+}
+
+.urlbarView
+{
+/*   top: 2px !important;; */
+}
+
+
+/* Menus */
+
+.subview-subheader,
+panelview .toolbarbutton-1,
+.subviewbutton,
+.widget-overflow-list .toolbarbutton-1
+{
+  margin: 0 !important;
+  padding: 0 8px !important;
+  min-height: 22px !important;
+}
+
