@@ -96,6 +96,11 @@ toolbarbutton
   /*! width: 28px !important; */
 }
 
+#downloads-indicator-anchor
+{
+  padding: 0 !important;;
+}
+
 
 #downloads-indicator-anchor
 {
