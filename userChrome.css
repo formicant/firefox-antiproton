@@ -8,6 +8,13 @@
 
 /* Tab panel */
 
+
+#navigator-toolbox
+{
+  background: #333;
+  color: #eee;
+}
+
 #TabsToolbar
 {
   height: 29px;
@@ -46,8 +53,36 @@
   width: 12px !important;
 }
 
+.tabbrowser-tab[selected="true"] vbox
+{
+  background: #eee !important;;
+}
+
+#tabs-newtab-button>image,
+#new-tab-button>image
+{
+  padding-top: 6px !important;;
+  list-style-image: url(plus_button.svg);
+}
+
+#scrollbutton-up>image,
+#scrollbutton-down>image
+{
+  list-style-image: url(left_button.svg);
+}
+
+#alltabs-button
+{
+  display: none;
+}
+
 
 /* Main toolbar */
+
+#nav-bar
+{
+  background: #eee !important;;
+}
 
 toolbarbutton
 {
@@ -56,15 +91,11 @@ toolbarbutton
 
 .toolbarbutton-icon
 {
-  padding: 6px !important;
-  height: 28px !important;
-  width: 28px !important;
+  /*! padding: 6px !important; */
+  /*! height: 28px !important; */
+  /*! width: 28px !important; */
 }
 
-.toolbarbutton-badge-stack
-{
-  padding: 0 !important;
-}
 
 #downloads-indicator-anchor
 {
@@ -75,6 +106,12 @@ toolbarbutton
 {
   min-height: 28px !important;
   margin-top: -2px !important;
+}
+
+#urlbar-background
+{
+  background: #fff !important;;
+  border: solid 1px #ccc !important;;
 }
 
 .urlbarView
