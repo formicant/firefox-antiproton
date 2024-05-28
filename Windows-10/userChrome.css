@@ -8,11 +8,19 @@
 
 /* Tab panel */
 
+#TabsToolbar-customization-target
+{
+  height: 29px;
+}
 
 #navigator-toolbox
 {
-  background: #333;
-  color: #eee;
+  background: #444 !important;
+  color: #eee !important;
+}
+html[privatebrowsingmode="temporary"] #navigator-toolbox
+{
+  background: #222 !important;
 }
 
 #TabsToolbar
@@ -25,10 +33,11 @@
   margin: 0 !important;
 }
 
+
 .titlebar-spacer[type="pre-tabs"],
 .titlebar-spacer[type="post-tabs"]
 {
-	width: 0 !important;
+  width: 0 !important;
 }
 
 .tabbrowser-tab
@@ -46,16 +55,18 @@
   padding: 0 12px 0 12px !important;
 }
 
-.titlebar-button .toolbarbutton-icon
-{
-  padding: 0 !important;
-  height: 12px !important;
-  width: 12px !important;
-}
-
 .tabbrowser-tab[selected="true"] vbox
 {
-  background: #eee !important;;
+  background: #eee !important;
+}
+html[privatebrowsingmode="temporary"] .tabbrowser-tab[selected="true"] vbox
+{
+  background: #444 !important;;
+}
+
+#alltabs-button
+{
+  display: none;
 }
 
 #tabs-newtab-button>image,
@@ -71,11 +82,6 @@
   list-style-image: url(left_button.svg);
 }
 
-#alltabs-button
-{
-  display: none;
-}
-
 
 /* Main toolbar */
 
@@ -83,45 +89,37 @@
 {
   background: #eee !important;;
 }
+html[privatebrowsingmode="temporary"] #nav-bar
+{
+  background: #444 !important;;
+}
 
-toolbarbutton
+toolbaritem
+{
+  margin: 0 !important;
+}
+
+toolbarbutton,
+toolbarbutton.toolbarbutton-1,
+#downloads-indicator-anchor
 {
   padding: 0 !important;
-}
-
-.toolbarbutton-icon
-{
-  /*! padding: 6px !important; */
-  /*! height: 28px !important; */
-  /*! width: 28px !important; */
-}
-
-#downloads-indicator-anchor
-{
-  padding: 0 !important;;
-}
-
-
-#downloads-indicator-anchor
-{
-  padding: 6px;
 }
 
 #urlbar-container
 {
   min-height: 28px !important;
-  margin-top: -2px !important;
 }
 
 #urlbar-background
 {
-  background: #fff !important;;
-  border: solid 1px #ccc !important;;
+  background: #fff !important;
+  border: solid 1px #ccc !important;
 }
-
-.urlbarView
+html[privatebrowsingmode="temporary"]  #urlbar-background
 {
-/*   top: 2px !important;; */
+  background: #222 !important;
+  border: solid 1px #444 !important;
 }
 
 

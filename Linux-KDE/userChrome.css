@@ -1,0 +1,126 @@
+/* General */
+
+
+
+*
+{
+  border-radius: 0!important;
+}
+
+
+/* Tab panel */
+
+#TabsToolbar-customization-target
+{
+  height: 29px;
+}
+
+#navigator-toolbox
+{
+  background: #444 !important;
+  color: #eee !important;
+}
+html[privatebrowsingmode="temporary"] #navigator-toolbox
+{
+  background: #222 !important;
+}
+
+#TabsToolbar
+{
+  height: 29px;
+}
+
+.tab-background
+{
+  margin: 0 !important;
+}
+
+
+.titlebar-spacer[type="pre-tabs"],
+.titlebar-spacer[type="post-tabs"]
+{
+  width: 0 !important;
+}
+
+.tabbrowser-tab
+{
+  padding: 0 !important;
+}
+
+.tab-content
+{
+  padding: 0 4px 0 6px !important;
+}
+
+.titlebar-button
+{
+  padding: 0 5px 0 5px !important;
+}
+
+.tabbrowser-tab[selected="true"] vbox
+{
+  background: #eee !important;
+}
+html[privatebrowsingmode="temporary"] .tabbrowser-tab[selected="true"] vbox
+{
+  background: #444 !important;;
+}
+
+#alltabs-button
+{
+  display: none;
+}
+
+
+/* Main toolbar */
+
+#nav-bar
+{
+  background: #eee !important;;
+}
+html[privatebrowsingmode="temporary"] #nav-bar
+{
+  background: #444 !important;;
+}
+
+toolbaritem
+{
+  margin: 0 !important;
+}
+
+toolbarbutton,
+toolbarbutton.toolbarbutton-1,
+#downloads-indicator-anchor
+{
+  padding: 0 !important;
+}
+
+#urlbar-container
+{
+  min-height: 28px !important;
+}
+
+#urlbar-background
+{
+  background: #fff !important;
+  border: solid 1px #ccc !important;
+}
+html[privatebrowsingmode="temporary"]  #urlbar-background
+{
+  background: #222 !important;
+  border: solid 1px #444 !important;
+}
+
+
+/* Menus */
+
+.subview-subheader,
+panelview .toolbarbutton-1,
+.subviewbutton,
+.widget-overflow-list .toolbarbutton-1
+{
+  margin: 0 !important;
+  padding: 0 8px !important;
+  min-height: 22px !important;
+}
+
