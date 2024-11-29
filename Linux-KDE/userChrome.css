@@ -10,6 +10,10 @@
 
 /* Tab panel */
 
+#tabbrowser-tabs {
+  min-height: 29px !important;
+}
+
 #TabsToolbar-customization-target
 {
   height: 29px;
